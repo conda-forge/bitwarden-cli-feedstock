@@ -1,6 +1,6 @@
 context:
   name: bitwarden-cli
-  version: "2026.10.0"
+  version: "2026.11.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://github.com/bitwarden/clients/archive/refs/tags/cli-v${{ version }}.tar.gz
-    sha256: a400f7042710daafa7d64ed04461a331c09a8bbb7262c68ce870ff3cbc336ea2
+    sha256: bedf137f60f9f7c2033afda3af90f7a3f77c5bb5427b56131d88331f2318a15e
 
 build:
   number: 0
